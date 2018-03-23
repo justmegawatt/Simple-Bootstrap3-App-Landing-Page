@@ -1,0 +1,19 @@
+/* ~*~*~*~*~*~*~*~*
+Navbar
+~*~*~*~*~*~*~*~* */
+
+.navbar-brand {
+    font-size: 1.8em;
+}
+
+.form-control {
+    width: 600px;
+}
+
+/* ~*~*~*~*~*~*~*~*
+top-container
+~*~*~*~*~*~*~*~* */
+
+#top-container {
+    background-image: url('../img/182813.jpg');
+}
