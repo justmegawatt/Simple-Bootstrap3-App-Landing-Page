@@ -1,4 +1,9 @@
 /* ~*~*~*~*~*~*~*~*
+General
+~*~*~*~*~*~*~*~* */
+
+
+/* ~*~*~*~*~*~*~*~*
 Navbar
 ~*~*~*~*~*~*~*~* */
 
@@ -6,9 +11,12 @@ Navbar
     font-size: 1.8em;
 }
 
-.form-control {
-    width: 600px;
+@media (max-width: 991px) and (min-width: 768px) {
+    .form-control {
+        width: 120px !important;
+    }
 }
+
 
 /* ~*~*~*~*~*~*~*~*
 top-container
@@ -16,4 +24,6 @@ top-container
 
 #top-container {
     background-image: url('../img/182813.jpg');
+    background-size: cover;
+    width: 100%;
 }
