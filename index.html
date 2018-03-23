@@ -36,10 +36,10 @@
 
                     <form class="navbar-form navbar-right">
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="email">
+                            <input type="email" class="form-control login-control" placeholder="email">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="password">
+                            <input type="password" class="form-control login-control" placeholder="password">
                         </div>
                         <button type="submit" class="btn btn-success">Log In</button>
                     </form>
@@ -47,15 +47,39 @@
             </div>
         </div>
 
-        <div id="top-container">
-                <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <h1>My Awesome App</h1>
-                            </div>
+        <div id="top-container" class="section-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div id="top-content">
+                            <h1>My Awesome App</h1>
+                            <p class="lead margin-top">This is why you should download this awesome app</p>
+                            <p>A little more detail about the app. You can go into more detail here if you want to.</p>
+                            <p class="bold">Interested? Join our mailing list!</p>
+
+                            <form class>
+                                <div class="input-group">
+                                    <div class="input-group-addon">@</div>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                </div>
+                                <input type="submit" value="Submit" class="btn btn-success margin-top">
+                            </form>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mid-container" class='section-container'>
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Why This App is Awesome</h1>
+                        </div>
+                    </div>
                 </div>
         </div>
+        
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

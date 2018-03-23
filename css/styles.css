@@ -2,6 +2,18 @@
 General
 ~*~*~*~*~*~*~*~* */
 
+.bold {
+    font-weight: bold;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.section-container {
+    background-size: cover;
+    width: 100%;
+}
 
 /* ~*~*~*~*~*~*~*~*
 Navbar
@@ -11,8 +23,8 @@ Navbar
     font-size: 1.8em;
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
-    .form-control {
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .login-control {
         width: 120px !important;
     }
 }
@@ -24,6 +36,27 @@ top-container
 
 #top-container {
     background-image: url('../img/182813.jpg');
-    background-size: cover;
-    width: 100%;
+}
+
+#top-content {
+    text-align: center;
+    color: #222;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px 15px 50px 15px;
+    border-radius: 1%;
+    margin-top: 50px;
+    width:
+}
+
+#top-content h1 {
+    font-size: 3em;
+}
+
+/* ~*~*~*~*~*~*~*~*
+mid-container
+~*~*~*~*~*~*~*~* */
+
+#mid-container {
+    border-top: 1px solid white;
+    background-image: url('../img/259552.jpg');
 }
