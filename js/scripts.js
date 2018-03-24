@@ -7,9 +7,16 @@ addPaddingToBody();
 function resizeSectionContainers() {
     let navbarHeight = $('.navbar').height();
     let windowHeight = $(window).height() - navbarHeight;
-    $('.section-container').css('height', windowHeight + 'px');
+    $('.section-container').css('min-height', windowHeight + 'px');
 }
 resizeSectionContainers();
+
+function centerLastRow() {
+    let navbarHeight = $('.navbar').height();
+    let windowHeight = $(window).height() - navbarHeight;
+    $('#bottom-content').css('paddingTop', windowHeight/4 + 'px');
+}
+centerLastRow();
 
 // function moveTopContentDown() {
 //     let navbarHeight = $('.navbar').height();

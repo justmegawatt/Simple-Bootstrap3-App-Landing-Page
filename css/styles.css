@@ -57,6 +57,35 @@ mid-container
 ~*~*~*~*~*~*~*~* */
 
 #mid-container {
-    border-top: 1px solid white;
+    border-top: 1px white solid;
     background-image: url('../img/259552.jpg');
+    color: white;
+}
+
+#mid-header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* ~*~*~*~*~*~*~*~*
+bottom-container
+~*~*~*~*~*~*~*~* */
+
+#bottom-container {
+    background-color: lightblue;
+    border-top: 1px white solid;
+}
+
+#bottom-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#bottom-content h1 {
+    font-size: 3.5em;
+}
+
+#download-logo {
+    margin: 0 auto;
+    width: 300px;
 }
